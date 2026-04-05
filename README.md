@@ -10,16 +10,19 @@ Can we accurately predict which customers are likely to churn, so the bank can i
 
 📊 Dataset
 Source	Bank Customer Churn Dataset – Kaggle
+
 Size	10,000 customers, 14 features
+
 Target	Exited (1 = churned, 0 = stayed)
+
 Churn rate	~20.4% (imbalanced dataset)
+
 🗂️ Project Structure
 bank-churn-prediction/
-│
-├── Bank_Customer_Churn_Prediction.ipynb   ← Main notebook
-├── Churn_Modelling.csv                    ← Dataset
-├── requirements.txt                      ← Dependencies
-└── README.md                            ← This file
+Bank_Customer_Churn_Prediction.ipynb   ← Main notebook
+Churn_Modelling.csv                    ← Dataset
+requirements.txt                      ← Dependencies
+README.md                            ← This file
 🧠 Workflow
 Exploratory Data Analysis — churn rates by geography, gender, age, products, and activity status
 Feature Engineering — 5 new features including HighValueInactive, BalanceToSalary, ProductsOverloaded
